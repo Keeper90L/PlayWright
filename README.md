@@ -18,6 +18,6 @@ System requirements
 
    test.use({storageState: 'auth.json file url here'});
 7) To verify that the auth state has been saved correctly, execute this command in the terminal with the url of your auth.json file...
-   'npx playwright codegen --load-storage=your auth.json url here https://make.powerapps.com/'
+   'npx playwright codegen --load-storage=your auth.json path here https://make.powerapps.com/'
    A codegen screen should open and automatically log you in and open the power apps maker portal.
 8) Now you can generate and run tests automatically. If you want to use the code gen with a certain app, just change the https://make.powerapps.com/ url with the url of the application you want to test to direct you automatically to the desired page. 
